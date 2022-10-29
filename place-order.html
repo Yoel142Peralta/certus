@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Mi estilo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/2537f3576b.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Cart Css -->
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="shortcut icon" href="images/ico.ico">
+    <title>CompuHackers | Tienda Tech</title>
+</head>
+<body>
+
+     <!-- ========================= boton flotante ========================= -->
+ <a href="https://api.whatsapp.com/send?phone=51946180311&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%Compuhakers%202." class="float" target="_blank">
+    <i class="fa-brands fa-whatsapp my-float"></i>
+</a>
+    <!-- ----------------Nav Bar------------ -->
+    <header class="section-header">
+        <section class="header-main border-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-4">
+                        <a href="index.html" class="brand-wrap">
+                            <img class="logo" src="images/logo.png">
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-4">
+                        <div class="dropdown">
+                            <button class="btn btn-dark dropdown-toggle" id="dropdownMenuButton1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-bars"></i>
+                                Categorias
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item list-group-item-action" href="products.html">Todos</a></li>
+                                <li><a class="dropdown-item list-group-item-action" href="products.html">Monitor</a></li>
+                                <li><a class="dropdown-item list-group-item-action" href="products.html">Mouse</a></li>
+                                <li><a class="dropdown-item list-group-item-action" href="products.html">Teclado</a></li>
+                                <li><a class="dropdown-item list-group-item-action" href="products.html">Tarjetas Graficas</a></li>
+                                <li><a class="dropdown-item list-group-item-action" href="products.html">Almacenamiento</a></li>
+                                <li><a class="dropdown-item list-group-item-action" href="products.html">Computadoras Completas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-1 col-4">
+                        <a href="products.html" class="btn btn-outline-dark">Tienda</a>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-3 col-md-6 col-5">
+                        <form action="#" class="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" style="width:60%;" placeholder="Buscar">
+                                
+                                <div class="input-group-append">
+                                  <button class="btn btn-dark" type="submit">
+                                    <i class="fa fa-search"></i>
+                                  </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-7">
+                        <div class="d-flex justify-content-end mb-3 mb-lg-0">
+                            <div class="widget-header">
+                                <small class="title text-muted">Bienvenido!</small>
+                                <div> 
+                                    <a href="login.html">Iniciar Sesión</a> <span class="dark-transp"> | </span>
+                                    <a href="register.html"> Registrar</a>
+                                </div>
+                            </div>
+                            <a href="cart.html" class="widget-header pl-3 ml-3">
+                                <div class="icon icon-sm rounded-circle border"><i class="fa fa-shopping-cart"></i></div>
+                                <span class="badge rounded-pill notify">4</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- ---------------- Fin Nav Bar------------ -->
+
+    <!-- ========================== REALIZAR PEDIDOS =================================== -->
+    <section class="section-content padding-y bg">
+        <div class="container">
+            <div class="row">
+                <aside class="col-lg-8">
+                    <div class="card mb-4 pt-3">
+                        <table class="table table-borderless table-shopping-cart">
+                            <tbody>
+                                <tr class=""> <!-- ----------- PRODUCTO ---------------- -->
+                                    <td>
+                                        <figure class="itemside align-items-center">
+                                            <div class="aside">
+                                                <img src="images/products/monitors/1.png" alt="img_product" class="img-sm">
+                                            </div>
+                                            <figcaption class="info">
+                                                <a href="product-detail.html" class="title text-dark">MONITOR LG LED 23.8" ULTRAGEAR GAMING 144HZ</a>
+                                                <p class="text-muted small">
+                                                    Marca: LG
+                                                    <br>
+                                                    Hz: 144Hz
+                                                </p>
+                                            </figcaption>
+                                        </figure>
+                                    </td>
+                                    <td>
+                                        <div class="price-wrap">
+                                            <var class="price">S/ 1400.00</var>
+                                            <small class="text-muted">S/ 1350.00 c/u</small>
+                                        </div>
+                                    </td>
+                                </tr> <!-- ----------- FIN PRODUCTO ---------------- -->
+
+                                <tr> <!-- ----------- PRODUCTO ---------------- -->
+                                    <td>
+                                        <figure class="itemside align-items-center">
+                                            <div class="aside">
+                                                <img src="images/products/monitors/2.png" alt="img_product" class="img-sm">
+                                            </div>
+                                            <figcaption class="info">
+                                                <a href="product-detail.html" class="title text-dark">MONITOR LG LED 23.8" ULTRAGEAR ( 24GN600-B ) GAMING</a>
+                                                <p class="text-muted small">
+                                                    Marca: LG
+                                                    <br>
+                                                    Hz: 144Hz
+                                                </p>
+                                            </figcaption>
+                                    </figure>
+                                    </td>
+                                    <td>
+                                        <div class="price-wrap">
+                                            <var class="price">S/ 1400.00</var>
+                                            <small class="text-muted">S/ 1350.00 c/u</small>
+                                        </div>
+                                    </td>
+                                </tr> <!-- ----------- FIN PRODUCTO ---------------- -->       
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <form action="" method="post">
+                                <h4 class="card-title">Datos de facturación</h4>
+                                <div class="row">
+                                    <div class="col-6 mb-2">
+                                        <label for="nombre" class="form-label">Nombre</label>
+                                        <input type="text" id="nombre" class="form-control">
+                                    </div>
+                                    <div class="col-6 mb-2">
+                                        <label for="apellidos" class="form-label">Apellidos</label>
+                                        <input type="text" id="apellidos" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 mb-2">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" id="email" class="form-control">
+                                    </div>
+                                    <div class="col-6 mb-2">
+                                        <label for="tel" class="form-label">Telefono</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">+51</span>
+                                            <input type="number" class="form-control" placeholder="Telefono">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 mb-2">
+                                        <label for="address">Direccion</label>
+                                        <input type="text" id="address" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 mb-2">
+                                        <label for="address2">Direccion 2</label>
+                                        <input type="text" id="address2" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-5 mb-2">
+                                        <label for="input_dep" class="form-label">Departamento</label>
+                                        <select id="input_dep" class="form-select">
+                                            <option selected aria-readonly="">Escoge...</option>
+                                            <option>Lima</option>
+                                            <option>Ica</option>
+                                            <option>Piura</option>
+                                            <option>Arequipa</option>
+                                          </select>
+                                      </div>
+                                      <div class="col-4 mb-2">
+                                        <label for="input_city" class="form-label">Ciudad</label>
+                                        <select id="input_city" class="form-select">
+                                          <option selected aria-readonly="">Escoge...</option>
+                                          <option>Lima</option>
+                                          <option>...</option>
+                                        </select>
+                                      </div>
+                                      <div class="col-3 mb-2">
+                                        <label for="inputZip" class="form-label">Cod. Postal</label>
+                                        <input type="number" class="form-control" id="inputZip">
+                                      </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 my-2 ">
+                                        <div class="form-switch ps-0">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <label class="form-check-label" for="flexSwitchCheckDefault">Usar como direccion predeterminada</label>
+                                            <input class="form-check-input ms-0" type="checkbox" id="flexSwitchCheckDefault">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 text-end">
+                                        <button type="button" class="btn btn-success">Guardar Dirección</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <article class="accordion" id="accordion_pay">
+
+                        <div class="card mb-1">
+                            <header class="card-header">
+                                <img src="images/misc/payment-paypal.png" class="float-end" height="24">
+                                <label for="" class="form-check" data-bs-toggle="collapse" data-bs-target="#pay_paynet" aria-expanded="true">
+                                    <input type="radio" name="payment-option" class="form-check-input" id="method_paypal" checked>
+                                    <h6><label for="method_paypal" class="form-check-label">Paypal</label></h6>
+                                </label>
+                            </header>
+                            <div id="pay_paynet" class="collapse" data-bs-parent="#accordion_pay">
+                                <div class="card-body">
+                                    <p class="text-center text-muted">
+                                        Connecta tu cuenta de PayPal y usala para pagar. Se te redireccionará a Paypal para la facturación.
+                                    </p>
+                                    <p class="text-center">
+                                        <a href="#">
+                                            <img src="images/misc/btn-paypal.png" alt="Logo-PayPal">
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-1">
+                            <header class="card-header">
+                                <img src="images/misc/payment-card.png" class="float-end" height="24">
+                                <label for="" class="form-check" data-bs-toggle="collapse" data-bs-target="#tarjeta-d-c" aria-expanded="true">
+                                    <input type="radio" name="payment-option" class="form-check-input" id="method_tarjeta_credito" checked>
+                                    <h6><label for="method_tarjeta_credito" class="form-check-label">Tarjeta de credito</label></h6>
+                                </label>
+                            </header>
+                            <div id="tarjeta-d-c" class="collapse show" data-bs-parent="#accordion_pay">
+                                <div class="card-body">
+                                    <form action="" method="post">
+                                        <div class="row">
+                                            <div class="col-6 mb-2">
+                                                <label for="titular_card" class="form-label">Nombre del Titular</label>
+                                                <input type="text" id="titular_card" class="form-control">
+                                            </div>
+                                            <div class="col-6 mb-2">
+                                                <label for="num_card" class="form-label">Número de tarjeta</label>
+                                                <input type="password" id="num_card" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6 mb-2">
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <label for="mes_exp_card" class="form-label">Mes exp.</label>
+                                                        <select class="form-select" id="mes_exp_card">
+                                                            <option selected>...</option>
+                                                            <option value="1">1</option>
+                                                            <option value="1">2</option>
+                                                            <option value="1">3</option>
+                                                            <option value="1">4</option>
+                                                            <option value="1">5</option>
+                                                            <option value="1">6</option>
+                                                            <option value="1">7</option>
+                                                            <option value="1">8</option>
+                                                            <option value="1">9</option>
+                                                            <option value="1">10</option>
+                                                            <option value="1">11</option>
+                                                            <option value="1">12</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <label for="year_exp_card" class="form-label">Año exp.</label>
+                                                        <select class="form-select" id="year_exp_card">
+                                                            <option selected>...</option>
+                                                            <option value="1">2022</option>
+                                                            <option value="1">2023</option>
+                                                            <option value="1">2024</option>
+                                                            <option value="1">2025</option>
+                                                            <option value="1">2026</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 mb-2">
+                                                <label for="cvv" class="form-label">CVV</label>
+                                                <input type="number" id="cvv" class="form-control" placeholder="Ingrese 3 digitos">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6 mb-2">
+                                                <label for="tipo_document_id" class="form-label">Documento de identificacion</label>
+                                                <select class="form-select" id="tipo_document_id">
+                                                    <option selected>DNI</option>
+                                                    <option value="1">CARNET EXT.</option>
+                                                    <option value="1">RUC</option>
+                                                    <option value="1">PASAPORTE</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-6 mb-2">
+                                                <label for="num_document_id" class="form-label">Número de documento</label>
+                                                <input type="number" id="num_document_id" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 my-2 ">
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="save_card">
+                                                    <label class="form-check-label" for="save_card">Guardar información de la tarjeta</label>
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 text-end">
+                                                <button type="button" class="btn btn-success">Aceptar</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </aside>
+                <aside class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-grid gap-2">
+                                <p class="text-center">
+                                    <img src="images/misc/compra-segura.png" alt="" width="170">
+                                </p>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <a href="place-order.html" class="btn btn-primary">Procesar Compra</a>
+                            </div>
+                            <hr>
+                            <dl class="dlist-align">
+                                <dt>SubTotal:</dt>
+                                <dd class="text-end">S/1400.00</dd>
+                            </dl>
+                            <dl class="dlist-align">
+                                <dt>IGV(19%):</dt>
+                                <dd class="text-end">S/1400.00</dd>
+                            </dl>
+                            <dl class="dlist-align">
+                                <dt><a href="">Aplicar cupón</a></dt>
+                            </dl>
+                            <hr>
+                            <dl class="dlist-align">
+                                <dt>Total:</dt>
+                                <dd class="text-end text-dark b">S/1400.00</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+    <!-- ========================== FIN REALIZAR PEDIDOS =================================== -->
+
+    <!-- ========================= FOOTER ========================= -->
+    <footer class="section-footer border-top">
+        <div class="container">
+            <section class="footer-bottom border-top row">
+                <div class="col-md-2">
+                    <p class="text-muted"> &copy CompuHackers </p>
+                </div>
+                <div class="col-md-8 text-md-center">
+                    <span  class="px-1">Jose Sayritupac</span>
+                    <span> | </span>
+                    <span  class="px-1">Yoel Peralta</span>
+                    <span> | </span>
+                    <span  class="px-1">Sebastian Alarcon</span>
+                    <span> | </span>
+                    <span  class="px-1">Billy Espinoza</span>
+                    <span> | </span>
+                    <span  class="px-1">Jordy Perez</span>
+                    <span> | </span>
+                    <span  class="px-1">Jhoseps Chua</span>
+                </div>
+                <div class="col-md-2 text-md-right text-muted">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </section>
+        </div>
+    </footer>
+<!-- ========================= FOOTER END // ========================= -->
+
+    <!-- JavaScript Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
